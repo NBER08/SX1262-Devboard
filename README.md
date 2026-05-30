@@ -1,1 +1,1 @@
-#SX1261 devboard for LoRa testing
+# SX1262 devboard for LoRa testing
