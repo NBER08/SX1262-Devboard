@@ -1,0 +1,92 @@
+{
+  "part_name": "CFPX",
+  "library_name": "Project_Components",
+  "symbol_library_name": "Project_Components",
+  "footprint_library_name": "Project_Components",
+  "project_root": "/home/nber08/Documents/SX1262-Devboard/Devboard",
+  "source_zip": "/home/nber08/Downloads/WE-XTAL_CFPX-217.zip",
+  "imported_at": "2026-05-31T11:38:24",
+  "imported_assets": {
+    "selected_symbol_library": "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/Project_Components.kicad_sym",
+    "selected_footprint_library": "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/Project_Components.pretty",
+    "symbol_libraries": [
+      "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/Project_Components.kicad_sym"
+    ],
+    "source_symbol_libraries": [
+      "WE-XTAL_CFPX-217.kicad_sym"
+    ],
+    "merged_symbols": [
+      {
+        "target_symbol_library": "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/Project_Components.kicad_sym",
+        "merged_symbol_names": [
+          "WE-XTAL_CFPX-217"
+        ],
+        "replaced_existing_symbols": [
+          "WE-XTAL_CFPX-217"
+        ],
+        "updated": true,
+        "message": "Merged 1 symbol(s)."
+      }
+    ],
+    "footprints": [
+      "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/Project_Components.pretty/WE-XTAL_CFPX-217.kicad_mod"
+    ],
+    "models_3d": [
+      "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/3dmodels/WE-XTAL_CFPX-217.step"
+    ],
+    "datasheets": [],
+    "source_zip": "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/source_zips/CFPX_WE-XTAL_CFPX-217.zip",
+    "metadata": null,
+    "3d_path_fix": {
+      "updated_footprints": [
+        "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/Project_Components.pretty/WE-XTAL_CFPX-217.kicad_mod"
+      ],
+      "skipped_footprints": [],
+      "available_models": [
+        "WE-XTAL_CFPX-217.step"
+      ],
+      "model_matches": [
+        {
+          "footprint": "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/Project_Components.pretty/WE-XTAL_CFPX-217.kicad_mod",
+          "model": "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/3dmodels/WE-XTAL_CFPX-217.step",
+          "score": 100
+        }
+      ]
+    },
+    "library_table_update": {
+      "footprint_table_updated": false,
+      "symbol_tables_updated": [],
+      "symbol_tables_skipped": [
+        "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/Project_Components.kicad_sym"
+      ]
+    },
+    "symbol_footprint_link": [
+      {
+        "symbol_library": "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/Project_Components.kicad_sym",
+        "updated": true,
+        "symbol_name": "WE-XTAL_CFPX-217",
+        "default_footprint": "Project_Components:WE-XTAL_CFPX-217",
+        "footprint_filters": [
+          "Project_Components:WE-XTAL_CFPX-217"
+        ],
+        "ki_fp_filters_value": "Project_Components:WE-XTAL_CFPX-217",
+        "filter_mode": "exact",
+        "include_default_in_filters": true,
+        "available_footprints": [
+          "Project_Components:WE-XTAL_CFPX-217"
+        ]
+      }
+    ],
+    "backups": [
+      "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/backups/2026-05-31_11-38-24/libraries/source_zips/CFPX_WE-XTAL_CFPX-217.zip",
+      "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/backups/2026-05-31_11-38-24/libraries/Project_Components.kicad_sym",
+      "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/backups/2026-05-31_11-38-24/libraries/Project_Components.pretty/WE-XTAL_CFPX-217.kicad_mod",
+      "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/backups/2026-05-31_11-38-24/libraries/3dmodels/WE-XTAL_CFPX-217.step",
+      "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/backups/2026-05-31_11-38-24/libraries/Project_Components.kicad_sym",
+      "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/backups/2026-05-31_11-38-24/libraries/Project_Components.pretty/WE-XTAL_CFPX-217.kicad_mod",
+      "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/backups/2026-05-31_11-38-24/fp-lib-table",
+      "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/backups/2026-05-31_11-38-24/sym-lib-table",
+      "/home/nber08/Documents/SX1262-Devboard/Devboard/libraries/backups/2026-05-31_11-38-24/libraries/metadata/CFPX_import_metadata.json"
+    ]
+  }
+}

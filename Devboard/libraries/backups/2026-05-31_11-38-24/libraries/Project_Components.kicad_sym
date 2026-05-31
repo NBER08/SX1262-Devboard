@@ -1043,7 +1043,9 @@
     (property "Value" "WE-XTAL_CFPX-217" (id 1) (at -2.66 -3.04 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    
+    (property "Footprint" "WE-XTAL_CFPX-217:WE-XTAL_CFPX-217" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
     (property "MF" "Würth Elektronik" (id 4) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
@@ -1067,14 +1069,6 @@
     )
     (property "Check_prices" "https://www.snapeda.com/parts/830009678/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda" (id 11) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
-    )
-    (property "Footprint" "Project_Components:WE-XTAL_CFPX-217"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_fp_filters" "Project_Components:WE-XTAL_CFPX-217"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "WE-XTAL_CFPX-217_0_0"
       (polyline
