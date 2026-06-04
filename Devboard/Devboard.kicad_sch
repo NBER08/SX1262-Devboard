@@ -7028,10 +7028,6 @@
 		(uuid "355f4903-6ca1-49eb-b85e-23af5805c293")
 	)
 	(no_connect
-		(at 294.64 48.26)
-		(uuid "438cb9c4-d78b-44d2-ba59-1b4acb959637")
-	)
-	(no_connect
 		(at 327.66 200.66)
 		(uuid "49ea52c5-d056-47d0-8d36-14e806d755a3")
 	)
@@ -9173,6 +9169,30 @@
 			)
 		)
 	)
+	(global_label "EXT_PIN"
+		(shape input)
+		(at 294.64 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83964082-2ab9-4fd7-a607-57c4ec051c85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 305.1242 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SW2"
 		(shape input)
 		(at 60.96 46.99 180)
@@ -9218,6 +9238,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "EXT_PIN"
+		(shape input)
+		(at 372.11 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89f70f4d-3e13-4b43-851e-af54fe7f9c87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 361.6258 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -12345,6 +12389,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 372.11 142.24 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3fa35b63-5777-4c0e-9fb0-2d23c2e852f5")
+		(property "Reference" "#PWR047"
+			(at 365.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 368.8588 142.367 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 372.11 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 372.11 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 372.11 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af6cd557-a15b-469c-abb9-6a8557138b27")
+		)
+		(instances
+			(project "Devboard"
+				(path "/0a0a1e18-e167-488d-99d1-7fc114522a17"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Crystal")
 		(at 312.42 34.29 90)
 		(unit 1)
@@ -12825,6 +12947,89 @@
 			(project "Devboard"
 				(path "/0a0a1e18-e167-488d-99d1-7fc114522a17"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 377.19 139.7 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e725009-4c77-4dfd-9014-9496c413f51f")
+		(property "Reference" "J5"
+			(at 378.46 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "RMF"
+			(at 378.46 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 377.19 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 377.19 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 377.19 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b06a651-254c-4990-8938-2ffe37ee3af1")
+		)
+		(pin "2"
+			(uuid "ae432dc4-a374-440b-a98f-4bbc04aa9636")
+		)
+		(instances
+			(project "Devboard"
+				(path "/0a0a1e18-e167-488d-99d1-7fc114522a17"
+					(reference "J5")
 					(unit 1)
 				)
 			)
