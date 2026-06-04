@@ -63,7 +63,7 @@
           "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -83,11 +83,7 @@
       ],
       "drc_exclusions": [
         [
-          "net_conflict|145542000|64312800|4c75cf70-2eff-4f10-8450-3530c95ea123|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "net_conflict|193632700|41963600|10e11346-3989-4510-9377-29268087aaad|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_issues|145565500|64319500|4c75cf70-2eff-4f10-8450-3530c95ea123|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -219,7 +215,7 @@
           ""
         ],
         [
-          "silk_over_copper|179120000|59848833|28270cc2-ca86-4b3c-ada9-9e3f1fca2eea|355be972-5674-415c-a4a3-7e9351dc90e8",
+          "silk_over_copper|179167619|59801214|28270cc2-ca86-4b3c-ada9-9e3f1fca2eea|355be972-5674-415c-a4a3-7e9351dc90e8",
           ""
         ],
         [
@@ -264,6 +260,10 @@
         ],
         [
           "starved_thermal|166261200|50626500|1511b190-919c-4f8c-8613-1fe902f7f71d|df0600d0-3810-40b5-b78a-e3d95abcbf29|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|175374300|53851600|1511b190-919c-4f8c-8613-1fe902f7f71d|eb4ac06c-e1a0-4942-ab0f-0b48c7e58c2f|F.Cu",
           ""
         ],
         [
@@ -952,7 +952,7 @@
         "uuid": "0a0a1e18-e167-488d-99d1-7fc114522a17"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR42,#PWR48",
     "variants": []
   },
   "sheets": [
